@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+    .container {
+        width: 60vw;
+    }
+    .header__container{
+        flex-direction: row;
+
+        gap: 0;
+    }
+    .container__search {
+        width: auto;
+    }
+    .search--input {
+        width: 270px;
+        height: 55px;
+
+        padding: 0 0 0 30px;
+    }
+    .search--button {
+        width: 70px;
+        height: 55px;
+    }
+}
